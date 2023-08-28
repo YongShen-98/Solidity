@@ -1,0 +1,22 @@
+{
+    "name": "CKGSB-0",
+    "description": "CKGSB-0 NFT",
+    "image": "https://ipfs.io/ipfs/QmUAmB7vG4zXXUETqfUm1DsQ77BDcDJiYPiDVYU57sNcxR",
+    "attributes": [{
+            "trait_type": "Generation",
+            "value": 1
+        },
+        {
+            "trait_type": "Dots",
+            "value": 4
+        },
+        {
+            "trait_type": "Antenna",
+            "value": "regular"
+        },
+        {
+            "trait_type": "Background",
+            "value": "space"
+        }
+    ]
+}

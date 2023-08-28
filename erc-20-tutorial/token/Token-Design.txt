@@ -1,0 +1,25 @@
+Token-Design
+
+1) initial apply (send to owner) -- 70,000,000
+
+2) max supply (capped) -- 100,000,000
+
+3) Make token burnable  
+
+4) Create block reward to distribute new supply to miners
+
+
+blockReward
+
+_beforeTokenTransfer
+
+_mintMinerReward
+
+(network sepolia)
+River Token deployed:  0x961d20e3b7F33E1D646b694FE857D94A5652948b
+Mountain Token deployed:  0xDE4C3Bd6a418343Fb7cC93480A41B64F00F884e0
+
+Facuet RVT contract deployed:  0xFf4C3cBc32520a679aAE2b0d2064689917611b2D
+Facuet MTT contract deployed:  0x53a78fA9Eae595B96bCbf3bE3a5C1BD5eBa0E371
+
+SwapCpamm deployed:  0x80F1Ffd1b8d6d7453E66FCd243e117464508F49D
