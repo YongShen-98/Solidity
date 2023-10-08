@@ -4,9 +4,8 @@ Token-Design
 
 2) max supply (capped) -- 100,000,000
 
-3) Make token burnable  
-
-4) Create block reward to distribute new supply to miners
+3) block reward  -- 50
+ 
 
 
 blockReward

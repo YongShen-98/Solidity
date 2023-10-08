@@ -20,10 +20,10 @@ contract MountainToken is ERC20Capped, ERC20Burnable {
     function _mint(address account, uint256 amount) internal virtual override(ERC20Capped, ERC20) {
         require(ERC20.totalSupply() + amount <= cap(), "ERC20Capped: cap exceeded");
         super._mint(account, amount);
-    }
+    }                                                               //当前块的矿工的地址
 
     function _mintMinerReward() internal {
-        _mint(block.coinbase, blockReward);                    //当前块的矿工的地址
+        _mint(block.coinbase, blockReward);                                                                      
     }
 
     function _beforeTokenTransfer(address from, address to, uint256 value) internal virtual override {
